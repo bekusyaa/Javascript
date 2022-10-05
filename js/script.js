@@ -37,3 +37,14 @@ console.log("width of car body: " + vehicleBodyWidth + ', lenght' + vehicleBodyL
 
 let COLOR_RED = 'F00';
 
+
+let equation = 4.6;
+
+console.log(-4/0);
+console.log('string' * 4);
+
+const person = "string"; // for strings 
+
+const bool = true;
+const bool1 = false; // for boolen types of data
+
