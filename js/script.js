@@ -6,13 +6,13 @@ const leftBorderWidth = 1;
 number = 10;
 console. log(number);
 
-const obj = {
+const objs = {
     a: 50
 };
 
-obj.a = 10;
+objs.a = 10;
  
-console.log(obj);
+console.log(objs);
 
 alert(5);
 [].push('a');
@@ -48,3 +48,21 @@ const person = "string"; // for strings
 const bool = true;
 const bool1 = false; // for boolen types of data
 
+const obj = {
+    name: "John",
+    age: 25, 
+    isMarried: false
+};
+
+console.log(obj.name);
+// console.log(obj["name"]);
+
+
+let arr = ['plum.png', 'orange.jpg', 'apple.bmp'];
+
+
+
+
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
