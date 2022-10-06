@@ -92,4 +92,20 @@ console.log(arrObj[1]);
 // console.log(obj3.a);
 
 
+alert('Hello'); 
 
+const result = confirm("are you here?");
+console.log(result);
+
+const answer = prompt("are you 18", "18");
+console.log(answer);
+
+
+ const answers = [];
+
+ answers[0] = prompt('What are name?', '');
+ answers[1] = prompt('What is your last name?', '');
+ answers[2] = prompt('How old are you?', '');
+
+ document.white(answers);
+ 
