@@ -6,13 +6,13 @@ const leftBorderWidth = 1;
 number = 10;
 console. log(number);
 
-const objs = {
+const obj = {
     a: 50
 };
 
-objs.a = 10;
+obj.a = 10;
  
-console.log(objs);
+console.log(obj);
 
 alert(5);
 [].push('a');
@@ -48,14 +48,15 @@ const person = "string"; // for strings
 const bool = true;
 const bool1 = false; // for boolen types of data
 
-const obj = {
+const obj2 = {
     name: "John",
     age: 25, 
     isMarried: false
 };
 
-console.log(obj.name);
-// console.log(obj["name"]);
+console.log(obj2.name);
+// it's an object it uses {} to put smt in. and to show something you need write
+//console.log(name of the variable the (...) then what you wanna show);
 
 
 let arr = ['plum.png', 'orange.jpg', 'apple.bmp'];
@@ -66,3 +67,29 @@ let arr = ['plum.png', 'orange.jpg', 'apple.bmp'];
 console.log(arr[0]);
 console.log(arr[1]);
 console.log(arr[2]);
+
+
+const arrs = [1, 2, 3];
+const arrObj = {
+    a: 1, 
+    1: 2,
+    c: 3
+};
+
+arrObj.b = '1234';
+
+console.log(arrObj['b']);
+console.log(arrObj.b);
+
+console.log(arrs[0]);
+console.log(arrs[1]);
+console.log(arrObj.a);
+console.log(arrObj[1]);
+
+
+
+// const obj3 = {a: 1, b: 2};
+// console.log(obj3.a);
+
+
+
