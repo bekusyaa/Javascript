@@ -107,5 +107,12 @@ console.log(answer);
  answers[1] = prompt('What is your last name?', '');
  answers[2] = prompt('How old are you?', '');
 
- document.white(answers);
- 
+
+
+const category = 'toys';
+
+console.log(`https://someurl.com/${category}/5`);
+
+const user ="Ivan";
+alert(`Hello, ${user}$.`);
+
