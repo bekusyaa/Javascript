@@ -78,7 +78,6 @@ const arrObj = {
 
 arrObj.b = '1234';
 
-console.log(arrObj['b']);
 console.log(arrObj.b);
 
 console.log(arrs[0]);
@@ -156,29 +155,46 @@ console.log(itChecked || itClose);
     console.log('Error');
  }
 
-const num = 50;
+// const num = 50;
 
-if (num < 49) {
-    console.log('Error');
-} else if (num > 100) {
-    console.log('A lot');
-} else {
-    console.log('Ok!');
+// if (num < 49) {
+//     console.log('Error');
+// } else if (num > 100) {
+//     console.log('A lot');
+// } else {
+//     console.log('Ok!');
+// }
+
+
+// switch (numm) {
+//     case 49:
+//         console.log("incorrect");
+//         break;
+//     case 100:
+//         console.log("incorrect");
+//         break;
+//     case 50:
+//         console.log("correct");
+//         break;
+//     default:
+//         console.log("Not in this time");
+//         break;
+// }
+
+
+let num = 50;
+
+while (num <= 55) {
+    console.log(num);
+    num++;
 }
 
-const numm = 50;
+do {
+    console.log(num);
+    num++;
+}
+while (num < 55);
 
-switch (numm) {
-    case 49:
-        console.log("incorrect");
-        break;
-    case 100:
-        console.log("incorrect");
-        break;
-    case 50:
-        console.log("correct");
-        break;
-    default:
-        console.log("Not in this time");
-        break;
+for (let i = 1; i < 8; i++) { 
+    console.log(i);
 }
