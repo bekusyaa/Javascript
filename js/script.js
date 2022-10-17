@@ -143,3 +143,42 @@ const itChecked = true,
 
 console.log(itChecked || itClose);
 
+
+ if (4 == 9) {
+    console.log('Ok!');
+ } else {
+    console.log('Error');
+ }
+
+ if (4 == 4) {
+    console.log('Ok!');
+ } else {
+    console.log('Error');
+ }
+
+const num = 50;
+
+if (num < 49) {
+    console.log('Error');
+} else if (num > 100) {
+    console.log('A lot');
+} else {
+    console.log('Ok!');
+}
+
+const numm = 50;
+
+switch (numm) {
+    case 49:
+        console.log("incorrect");
+        break;
+    case 100:
+        console.log("incorrect");
+        break;
+    case 50:
+        console.log("correct");
+        break;
+    default:
+        console.log("Not in this time");
+        break;
+}
